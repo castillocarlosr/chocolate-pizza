@@ -5,7 +5,7 @@ body{
 }
 
 header{
-  overflow: hidden;
+  overflow: scroll;
   margin-top: 2em;
   display: inline;
 }
@@ -14,7 +14,6 @@ header > img{
   float: left;
   display: inline-block;
 }
-
 
 h1{
 
@@ -35,7 +34,7 @@ h2{
 }
 
 #social2 {
-  position: fixed;
+  position: static;
   top: 2em;
   right: 6.25em;
   
@@ -48,7 +47,7 @@ h2{
 
 }
 #social1 {
-  position: fixed;
+  position: static;
   top: 2em;
   right: 10em;
 }
@@ -81,7 +80,25 @@ h2{
   margin-right: 4em
 }
 
-.name img{
-  position: fixed;
-  right:10.5em;
+  .name img{
+    display: inline-block;
+    float: right;
+    margin-right: .35em;
+  }
+
+  #choco {
+    width: 98%;
+    height: 98%;
+    margin-top: 1.2em;
+  }
+p {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 19px;
+  text-indent: 30pt;
+  line-height: 150%;
+  opacity: .6;
+  margin-top: 1.8em;
+  margin-bottom: 1.8em;
+  margin-right: 1.2em;
+  margin-left: 1.2em;
 }
