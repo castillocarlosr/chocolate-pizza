@@ -94,11 +94,7 @@ p {
   margin-right: 1.2em;
   margin-left: 1.2em;
 }
-/* .ingredients img{
-  width:93%;
-  height:93%;
-  margin:2em;
-} */
+
 
 div{
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -111,7 +107,6 @@ div{
 
 .grocery-list {
   background: url("../images/list-bg.png");
-  /* background-size: cover; */
   margin-left: 2em;
   margin-top:.57em;
   margin-right: 2em;
